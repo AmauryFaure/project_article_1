@@ -9,6 +9,8 @@ Le fichier `Project_A1_Simple.ipynb` contient des implémentations d'algorithme 
 
 Le fichier `Project_A1_CamemBERT.ipynb` contient une implémentation de [CamemBERT](https://camembert-model.fr/), un réseau neuronal basé sur BERT, entrainé pour la classification de séquence. 
 
+Le fichier `serving.ipynb` contient une implémentation du Serving d'un modèle CamemBERT via Ray-Serve.
+
 Les 3 autres fichiers contiennent des textes utiles pour l'entraînement et le test des algorithmes :
 - `AmauryModerationAllMessagesInspireFrom3Aout2020.xlsx`: Contient des échanges de la plateforme INSPIRE.
 - `fr_dataset_test.csv`: Contient des tweets en français provenant de [Multilingual and Multi-Aspect Hate Speech Analysis](https://github.com/HKUST-KnowComp/MLMA_hate_speech), où certains tweets utilisé pour l'entraînement ont été retiré
