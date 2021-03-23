@@ -65,3 +65,14 @@ model.save_pretrained("/content/drive/MyDrive/article_1_model/camembert_v1")
 ```
 
 Il faut la décommenter dans le notebook, et changer le chemin dans lequel on souhaite sauvegarder le modèle.
+
+### Modifications des hyperparamètres :
+
+Pour améliorer les performances du modèle camemBERT, on peut chercher à modifier certains paramètres, notamment :
+
+- `epoch` : Le nombre d'epoch correspond au nombre de fois ou l'on va effectuer une étape forward et backward du réseau neuronal, globalement ça correspond au nombre de fois ou l'on va montrer les inputs d'entrainement au modèle afin qu'il modifie ses poids interne. Un nombre d'epoch petit risque de ne pas modifier assez les poids, un nombre trop grand risque de trop les modifier. Il faut donc trouver le bon équilibre. 
+- `batch_size` : C'est le nombre d'inputs que le modèle va voir à chaque fois. 
+- `learning_rate` ou `lr` : c'est un coefficient qui vient modifier la capacité d'apprentissage du modèle. Un learning rate important permet de s'adapter plus vite aux inputs montrés, mais peut trop spécialiser l'algorithme.
+
+Pour trouver la bonne combinaison de paramètres, il faut re-éntraîner camemBERT avec différents paramètre et évaluer sa performance sur un set de données de test.
+On chosira alors les paramètres donnant la meilleure performance. 
