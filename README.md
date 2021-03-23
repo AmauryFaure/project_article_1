@@ -12,7 +12,7 @@ Le fichier `Project_A1_CamemBERT.ipynb` contient une implémentation de [CamemBE
 Le fichier `serving.ipynb` contient une implémentation du Serving d'un modèle CamemBERT via Ray-Serve.
 
 Les 3 autres fichiers contiennent des textes utiles pour l'entraînement et le test des algorithmes :
-- `AmauryModerationAllMessagesInspireFrom3Aout2020.xlsx`: Contient des échanges de la plateforme INSPIRE.
+- `AmauryModerationAllMessagesInspireFrom3Aout2020.xlsx`: Contient des échanges de la plateforme INSPIRE, indisponible sur ce répertoire.
 - `fr_dataset_test.csv`: Contient des tweets en français provenant de [Multilingual and Multi-Aspect Hate Speech Analysis](https://github.com/HKUST-KnowComp/MLMA_hate_speech), où certains tweets utilisé pour l'entraînement ont été retiré
 - `selected_tweets.csv`: un fichier contenant des tweets sélectionnés pour l'entraînement. Plus d'informations sur la sélection des tweets [here](https://github.com/AmauryFaure/get_tweets.git).
 
